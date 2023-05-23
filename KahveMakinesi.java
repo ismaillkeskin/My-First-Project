@@ -49,7 +49,7 @@ public class KahveMakinesi {
             if (seker.equalsIgnoreCase("Evet")) {
                 System.out.println("Kac Seker Istersiniz?");
                 int kacSeker = input.nextInt();
-                System.out.println("Kahvenize " + kacSeker + " Seker Ekleniyor...");
+                System.out.println("Kahvenize " + kacSeker + " Seker Ekleniyor....");
             } else if (seker.equalsIgnoreCase("Hayir")) {
                 System.out.println("Kahveniz Seker Eklenmeden Hazirlaniyor...");
             }else {
